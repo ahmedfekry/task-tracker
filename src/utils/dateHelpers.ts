@@ -5,7 +5,6 @@ import {
   startOfDay,
   endOfDay,
   differenceInMinutes,
-  getDay,
   addDays,
   startOfWeek,
   endOfWeek,
@@ -15,7 +14,7 @@ import {
  * Check if a date is a work day (all 7 days are now work days)
  * Work schedule: Monday-Sunday (all days)
  */
-export function isWorkDay(date: Date): boolean {
+export function isWorkDay(_date: Date): boolean {
   return true; // All days are work days now
 }
 
